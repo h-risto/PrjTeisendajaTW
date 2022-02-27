@@ -64,8 +64,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CKiiruseTeisendaja.vb" />
     <Compile Include="CTeisendaja.vb" />
     <Compile Include="CTemperatuuriTeisendaja.vb" />
+    <Compile Include="IKiiruseTeisendaja.vb" />
     <Compile Include="ITeisendaja.vb" />
     <Compile Include="ITemperatuuriTeisendaja.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
