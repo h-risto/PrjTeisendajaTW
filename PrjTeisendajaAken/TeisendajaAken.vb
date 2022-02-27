@@ -1,6 +1,6 @@
 ﻿Public Class TeisendajaAken
 
-    Dim teisendused() = {"km -> mi", "mi -> km", "C -> F", "F -> C"}
+    Dim teisendused() = {"km -> mi", "mi -> km", "C -> F", "F -> C", "km/h -> m/s", "m/s -> km/h"}
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         lblSisendYhik.Text = ""
@@ -53,6 +53,14 @@
                     Dim teisendaja As PrjTeisendajad.ITemperatuuriTeisendaja
                     teisendaja = New PrjTeisendajad.CTemperatuuriTeisendaja
                     vastus = Math.Round(teisendaja.FahrenheitToCelsius(sisend), 2)
+                Case 4
+                    Dim teisendaja As PrjTeisendajad.IKiiruseTeisendaja
+                    teisendaja = New PrjTeisendajad.CKiiruseTeisendaja
+                    vastus = Math.Round(teisendaja.KmhToMs(sisend), 2)
+                Case 5
+                    Dim teisendaja As PrjTeisendajad.IKiiruseTeisendaja
+                    teisendaja = New PrjTeisendajad.CKiiruseTeisendaja
+                    vastus = Math.Round(teisendaja.MsToKmh(sisend), 2)
                 Case Else
                     vastus = "Tundmatu teisendus!"
             End Select
