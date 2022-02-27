@@ -34,18 +34,24 @@
         lblVastusYhik.Text = tykeldatud(2)
     End Sub
     Private Sub Arvuta(ByVal teisenduseTyyp As Int32, ByVal sisend As String)
-        Dim teisendaja As PrjTeisendajad.ITeisendaja
-        teisendaja = New PrjTeisendajad.CTeisendaja
         Dim vastus
         Try
             Select Case teisenduseTyyp
                 Case 0
+                    Dim teisendaja As PrjTeisendajad.ITeisendaja
+                    teisendaja = New PrjTeisendajad.CTeisendaja
                     vastus = Math.Round(teisendaja.KilometersToMiles(sisend), 2)
                 Case 1
+                    Dim teisendaja As PrjTeisendajad.ITeisendaja
+                    teisendaja = New PrjTeisendajad.CTeisendaja
                     vastus = Math.Round(teisendaja.MilesToKilometers(sisend), 2)
                 Case 2
+                    Dim teisendaja As PrjTeisendajad.ITemperatuuriTeisendaja
+                    teisendaja = New PrjTeisendajad.CTemperatuuriTeisendaja
                     vastus = Math.Round(teisendaja.CelciusToFahrenheit(sisend), 2)
                 Case 3
+                    Dim teisendaja As PrjTeisendajad.ITemperatuuriTeisendaja
+                    teisendaja = New PrjTeisendajad.CTemperatuuriTeisendaja
                     vastus = Math.Round(teisendaja.FahrenheitToCelsius(sisend), 2)
                 Case Else
                     vastus = "Tundmatu teisendus!"

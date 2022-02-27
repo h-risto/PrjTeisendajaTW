@@ -65,7 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CTeisendaja.vb" />
+    <Compile Include="CTemperatuuriTeisendaja.vb" />
     <Compile Include="ITeisendaja.vb" />
+    <Compile Include="ITemperatuuriTeisendaja.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
