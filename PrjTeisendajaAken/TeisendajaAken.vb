@@ -38,12 +38,12 @@
         Try
             Select Case teisenduseTyyp
                 Case 0
-                    Dim teisendaja As PrjTeisendajad.ITeisendaja
-                    teisendaja = New PrjTeisendajad.CTeisendaja
+                    Dim teisendaja As PrjTeisendajad.IDistantsiTeisendaja
+                    teisendaja = New PrjTeisendajad.CDistantsiTeisendaja
                     vastus = Math.Round(teisendaja.KilometersToMiles(sisend), 2)
                 Case 1
-                    Dim teisendaja As PrjTeisendajad.ITeisendaja
-                    teisendaja = New PrjTeisendajad.CTeisendaja
+                    Dim teisendaja As PrjTeisendajad.IDistantsiTeisendaja
+                    teisendaja = New PrjTeisendajad.CDistantsiTeisendaja
                     vastus = Math.Round(teisendaja.MilesToKilometers(sisend), 2)
                 Case 2
                     Dim teisendaja As PrjTeisendajad.ITemperatuuriTeisendaja
