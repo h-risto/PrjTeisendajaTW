@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrjTeisendajaAken", "PrjTeisendajaAken\PrjTeisendajaAken.vbproj", "{DD66062F-7B71-4B5E-910A-80347385630C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrjTeisendajad", "PrjTeisendajad\PrjTeisendajad.vbproj", "{A85F1B81-70CA-4B78-91BC-A0A3D57A04DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD66062F-7B71-4B5E-910A-80347385630C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD66062F-7B71-4B5E-910A-80347385630C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD66062F-7B71-4B5E-910A-80347385630C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD66062F-7B71-4B5E-910A-80347385630C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85F1B81-70CA-4B78-91BC-A0A3D57A04DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85F1B81-70CA-4B78-91BC-A0A3D57A04DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85F1B81-70CA-4B78-91BC-A0A3D57A04DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85F1B81-70CA-4B78-91BC-A0A3D57A04DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F07C1ED-A639-4E96-93AD-AF3A7F3FD062}
+	EndGlobalSection
+EndGlobal
